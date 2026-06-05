@@ -15,4 +15,54 @@
   *
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
+const personagem = {
+  nome: "Romeu Rômulo",
+  classe: "bardo",
+  nivel: 12,
+  equipamento: [
+    "arco",
+    "violão",
+    "gaita",
+    "flechas de aço",
+    "botas de couro",
+    "capa de couro",
+    "chapéu de pena"
+  ],
+  pontosDeVida: 30, // Alterado de 100 para 30 (plateia tava bem agressiva KKKKK)
+  pontosDeMagia: 100,
+  moedas: {
+    ouro: 20,
+    prata: 43,
+    bronze: 125
+  },
+  pocoes: {
+    cura: 7,
+    magia: 5
+  },
+  
+  // Método do Exercício 2
+  tocarMusica: function(musica, letra) {
+    console.log(`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+uma música para trazer ânimo a seus corpos e esperança para seus corações.
+Apresento-lhes a música ${musica}.
 
+Em 1, 2, 3
+...
+${letra}`);
+  },
+
+  // Novo método do Exercício 3
+  tomarPocaoCura: function() {
+    // Validação para garantir que ele tem poção para usar
+    if (this.pocoes.cura > 0) {
+      this.pontosDeVida = 100; // Recupera a vida total
+      this.pocoes.cura -= 1;   // Remove 1 poção do inventário
+      console.log(`${this.nome} usou uma poção. Vida restaurada para 100!`);
+    } else {
+      console.log(`${this.nome} não tem poções de cura restando!`);
+    }
+  }
+};
+
+// Exportação do objeto do personagem
+export default personagem;
