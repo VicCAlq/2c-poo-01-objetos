@@ -14,8 +14,7 @@
   * Este método recebe como argumento a quantidade de poções compradas.
   *
   * A relação entre cada dinheiro:
-  * 10 moedas de bronze = 1 moeda de prata
-  * 10 moedas de prata = 1 moeda de ouro
+  * 
   *
   * O método deve fazer a conversão entre moedas caso não haja o suficiente
   * da moeda adequada, e descontar o valor das poções do dinheiro do personagem.
@@ -75,7 +74,27 @@ const personagem = {
       console.log("voce esta com a vida cheia")
     }
   },
-  ComprarPocoes: function() {
-    
+  ComprarPocoes: function(quantasPocoes) {
+    let i = quantasPocoes * 15
+    if (i > this.moedas.prata) {
+      if ( this.moedas.bronze >= i) {
+        this.moedas.bronze - i
+        this.pocoes.cura = quantasPocoes
+        return
+      }
+      if ( this.moedas.bronze / 10 > i) {
+        this.moedas.bronze / 10 + this.moedas.prata
+      }
+      console.log(quantasPocoes)
+    }
   }
 }
+
+// 10 moedas de bronze = 1 moeda de prata
+// 10 moedas de prata = 1 moeda de ouro
+
+// this.moedas.prata -= (15 * quantasPocoes)
+
+personagem.ComprarPocoes(2)
+
+console.log(`${personagem.moedas.prata}`)
