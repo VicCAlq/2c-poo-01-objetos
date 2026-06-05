@@ -31,7 +31,7 @@ const personagem = {
     moedas: {
         ouro: 20,
         prata: 43,
-        bornze: 125
+        bronze: 125
     }, 
     pocoes: {
         cura: 7,
