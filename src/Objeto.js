@@ -113,3 +113,4 @@ console.table(meuPapagaio.medicado)
 
 meuPapagaio.dormir()
 console.table(meuPapagaio)
+
