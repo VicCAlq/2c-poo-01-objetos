@@ -75,26 +75,29 @@ const personagem = {
     }
   },
   ComprarPocoes: function(quantasPocoes) {
-    let i = quantasPocoes * 15
-    if (i > this.moedas.prata) {
-      if ( this.moedas.bronze >= i) {
-        this.moedas.bronze - i
-        this.pocoes.cura = quantasPocoes
-        return
+    let valorTotal = quantasPocoes * 15 // o valor total está em prata
+      if ( this.moedas.prata >= valorTotal ) {
+        this.moedas.prata -= valorTotal
+        this.pocoes.cura += quantasPocoes
+      } else if ( this.moedas.ouro * 10 >= valorTotal) {
+        this.moedas.prata += this.moedas.ouro * 10
+        this.pocoes.cura += quantasPocoes
+      } else if ( this.moedas.bronze / 10 >= valorTotal) {
+        this.moedas.prata += this.moedas.bronze / 10
+        this.pocoes.cura += quantasPocoes
       }
-      if ( this.moedas.bronze / 10 > i) {
-        this.moedas.bronze / 10 + this.moedas.prata
-      }
-      console.log(quantasPocoes)
+
     }
-  }
 }
+
+
+personagem.ComprarPocoes(10)
+
+console.log(`${personagem.moedas.prata} | ${personagem.pocoes.cura}`)
+
+
 
 // 10 moedas de bronze = 1 moeda de prata
 // 10 moedas de prata = 1 moeda de ouro
 
 // this.moedas.prata -= (15 * quantasPocoes)
-
-personagem.ComprarPocoes(2)
-
-console.log(`${personagem.moedas.prata}`)
