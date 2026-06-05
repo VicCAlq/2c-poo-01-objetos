@@ -16,3 +16,30 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+const personagem = {
+    nome: "Romeu Rômulo", 
+    classe: "bardo",
+    nivel: 12,
+    equipamento: ["arco", "violão", "gaita", "flechas de aço","botas de couro",
+    "capa de couro","chapéu de pena"],
+    pontosDeVida: 30,
+    pontosDeMagia:100,
+    moedas: {
+      ouro: 20,
+      prata:43,
+      bronze:125,
+    },
+    pocoes:{
+      cura: 7,
+      magia: 5,
+    },
+    tomarPocao: function(pocao) {
+      if (this.pocoes[pocao]) {
+        this.pontosDeVida = 100
+        this.pocoes[pocao] -= 1 
+        console.log(`${this.apelido} Toamarpocao com ${poucaVida}.`)
+      }
+    }
+}
+
+export default personagem;
