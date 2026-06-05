@@ -16,3 +16,8 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+import personagem from "./AtvObjeto";
+
+const personagem = {
+  pontosDeVida: 30
+}
