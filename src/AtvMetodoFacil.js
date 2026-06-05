@@ -71,3 +71,5 @@ personagem.tocarMusica("lágrimas no celular",
 
 
 console.log(personagem.tocarMusica)
+
+export default personagem
