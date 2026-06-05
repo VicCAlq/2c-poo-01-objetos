@@ -47,4 +47,27 @@ const personagem = {
     ${letra}`)
   }
 }
-console.log(personagem.tocarMusica())
+personagem.tocarMusica("lágrimas no celular",
+  `Eu fiz um show lotar e me senti sozinho
+  Eles esquecem que sou o link só no palco
+  Se me trombar vou te dar meu melhor sorriso
+  Chegar em casa e me afundar no álcool
+  Não é que meu sorriso não seja sincero
+  Mas é que seu elogio também não foi
+  Conhece o link mas esquece do Kalledy
+  A cinco anos você nem diria um oi
+  Eu vou te traumatizar igual quem me traumatizou
+  Eu vou te amar igual seu pai nunca te amou
+  Balãozada a noite toda eles acham que eu tô no Rio
+  Se apegou porque cê quis
+  Tu sabe é os garoto vadio
+  É paia te perder quando eu posso te ter
+  Mas não tem problema
+  Tu vai achar alguém melhor
+  Eu te vi de longe e percebi
+  Eu não era certo pra você
+  Eu não sou certo nem pra mim
+  Lágrimas no meu celular`)
+
+
+console.log(personagem.tocarMusica)
