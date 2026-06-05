@@ -5,7 +5,7 @@
   * de "100" para "30".
   * 
   * Após cantar a música no exercício 2, a platéia não gostou nada e moeu
-  * o personagem na pancada, reduzindo seus "pontosDeVida".
+  * o personagem na porrada, reduzindo seus "pontosDeVida".
   *
   * Crie agora um método onde o personagem pode consumir uma poção
   * que ele possua para recuperar sua vida para o valor total.
@@ -16,3 +16,35 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+const personagem = {
+    nome: "Romeu Rômulo",
+    classe: "bardo",
+    nivel: 12,
+    equipamentos: ["arco", "violão", "gaita", "flechas de aço", "botas de couro", "capa de couro", "chapéu de pena"],
+    pontosDeVida: 30,
+    moedas: {
+        ouro: 20,
+        prata: 43,
+        bronza: 125
+    },
+    pocoes: {
+        cura: 7,
+        magia: 5
+    },
+    tocarMusica: function(musica, letra){
+        console.log(`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+  * uma música para trazer ânimo a seus corpos e esperança para seus corações.
+  * Apresento-lhes a música ${musica}
+
+  Em 3,2,1 e 
+  ...
+  ${letra}`)
+    },
+    usarPocaoDeCura: function(pocoes){
+      this.pocoes.cura -= 1
+      this.pontosDeVida += 30
+    }
+
+}
+
+export default personagem
