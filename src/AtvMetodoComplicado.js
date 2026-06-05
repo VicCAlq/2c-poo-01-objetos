@@ -101,3 +101,6 @@ console.log(`${personagem.moedas.prata} | ${personagem.pocoes.cura}`)
 // 10 moedas de prata = 1 moeda de ouro
 
 // this.moedas.prata -= (15 * quantasPocoes)
+
+
+export default personagem
