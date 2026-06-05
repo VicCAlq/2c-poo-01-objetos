@@ -47,7 +47,7 @@ const personagem = {
         if(this.pontosDeVida < 100) {
             this.pontosDeVida = 100;
             
-            this.pocoes.cura = 6
+            this.pocoes.cura -= 1
         }
 
     }
@@ -56,3 +56,4 @@ const personagem = {
 console.log(personagem)
 personagem.tocarMusica('Blue Bird', 'hishou taitara\n modoranai to itte\n mezashita no wa\n aoi aoi ano sora\n kanashimi wa mada oboerarezu\n setsunasa wa ima tsukami hajimetaanata\n e to daku kono kanjou mo\n ima kotoba ni kawatte iku\n michi naru sekai no\n yuumei kara mezamete\n kono hane wo hiroge tobitatsu\n hishou taitara\n modoranai to itte\n mezashita no wa\n shiroi shiroi ano kumo\n tsukinuketara\n mitsukaru to shitte\n furikiru hodo\n aoi aoi ano sora\n aoi aoi ano sora\n aoi aoi ano sora')
 personagem.consumirPorcao()
+export default personagem;
