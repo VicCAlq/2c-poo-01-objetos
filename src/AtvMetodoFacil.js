@@ -20,7 +20,7 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
- const Personagem = {
+ const personagem = {
     nome: 'Romeu Rômulo',
     nivel: 12,
     classe: 'bardo',
@@ -50,4 +50,4 @@
 
 console.log(copiaDoPersonagem)
 copiaDoPersonagem.tocarMusica('Blue Bird', 'hishou taitara\n modoranai to itte\n mezashita no wa\n aoi aoi ano sora\n kanashimi wa mada oboerarezu\n setsunasa wa ima tsukami hajimetaanata\n e to daku kono kanjou mo\n ima kotoba ni kawatte iku\n michi naru sekai no\n yuumei kara mezamete\n kono hane wo hiroge tobitatsu\n hishou taitara\n modoranai to itte\n mezashita no wa\n shiroi shiroi ano kumo\n tsukinuketara\n mitsukaru to shitte\n furikiru hodo\n aoi aoi ano sora\n aoi aoi ano sora\n aoi aoi ano sora')
-export default Personagem;
+export default personagem;
