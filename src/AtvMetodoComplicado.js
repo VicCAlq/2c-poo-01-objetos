@@ -39,3 +39,80 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+const personagem = {
+  nome: "Romeu Rômulo",
+  classe: "bardo",
+  nivel: 12,
+  equipamento: [
+    "arco",
+    "violão",
+    "gaita",
+    "flechas de aço",
+    "botas de couro",
+    "capa de couro",
+    "chapéu de pena"
+  ],
+  pontosDeVida: 30,
+  pontosDeMagia: 100,
+  moedas: {
+    ouro: 20,
+    prata: 43,
+    bronze: 125
+  },
+  pocoes: {
+    cura: 0, // Reduzido para 0 poções de cura conforme o enunciado
+    magia: 5
+  },
+
+  tocarMusica: function(musica, letra) {
+    console.log(
+`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+uma música para trazer ânimo a seus corpos e esperança para seus corações.
+Apresento-lhes a música ${musica}.
+
+Em 1, 2, 3
+...
+${letra}`
+    );
+  },
+
+  beberPocaoDeCura: function() {
+    if (this.pocoes.cura > 0) {
+      this.pontosDeVida = 100;
+      this.pocoes.cura -= 1;
+    } else {
+      console.log("Você não tem poções de cura restantes!");
+    }
+  },
+
+  comprarPocoesDeCura: function(quantidade) {
+    // 1 poção = 15 prata = 150 bronze (já que 1 prata = 10 bronze)
+    const custoTotalEmBronze = quantidade * 15 * 10;
+
+    // Converte todo o dinheiro atual do personagem para a unidade de bronze
+    const totalOuroEmBronze = this.moedas.ouro * 10 * 10;
+    const totalPrataEmBronze = this.moedas.prata * 10;
+    const totalDinheiroEmBronze = totalOuroEmBronze + totalPrataEmBronze + this.moedas.bronze;
+
+    // Verifica se o bardo tem fundos suficientes
+    if (totalDinheiroEmBronze < custoTotalEmBronze) {
+      console.log("Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?");
+      return;
+    }
+
+    // Deduz o custo total em bronze e calcula o saldo restante
+    let saldoRestanteEmBronze = totalDinheiroEmBronze - custoTotalEmBronze;
+
+    // Redistribui o saldo restante de volta para ouro, prata e bronze (reversão do sistema decimal)
+    this.moedas.ouro = Math.floor(saldoRestanteEmBronze / 100);
+    saldoRestanteEmBronze %= 100;
+
+    this.moedas.prata = Math.floor(saldoRestanteEmBronze / 10);
+    this.moedas.bronze = saldoRestanteEmBronze % 10;
+
+    // Adiciona as poções adquiridas ao inventário do bardo
+    this.pocoes.cura += quantidade;
+  }
+};
+
+export default personagem;
