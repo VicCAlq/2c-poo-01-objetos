@@ -63,9 +63,4 @@ ${letra}
   }
 }
 
-personagem.tocarMusica(
-  "Montagem Domer",
-  `Domer`
-)
-
 export default personagem
