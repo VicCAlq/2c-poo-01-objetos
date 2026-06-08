@@ -52,7 +52,7 @@ const personagem = {
       `
     );
   },
-  usarPocao() {
+  beberPocao() {
     if (this.pocoes.cura > 0) {
       this.pontosDeVida = 100;
       this.pocoes.cura -= 1;
