@@ -19,4 +19,37 @@
   *
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
+const personagem = {
 
+  nome: "juca",
+  nivel: 12,
+  pontosDeMagia: 100,
+  pontosDeVida: 100,
+
+  equipamentos: [
+  "arco",
+  "violão",
+  "gaita",
+  "flechas de aço",
+  "botas de couro",
+  "capa de couro",
+  "chapéu de pena",
+],
+
+  moedas:{
+  Ouro: 20,
+  Prata: 43,
+  Bronze: 125,
+  },
+ 
+
+  pocoes: {
+  pocoesDeCura: 7,
+  pocoesDeMagia: 5,
+ },
+
+
+}
+
+
+export default personagem
