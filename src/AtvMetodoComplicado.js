@@ -39,3 +39,87 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+const personagem = {
+  nome: "Romeu Rômulo",
+  classe: "bardo",
+  nivel: 12,
+  equipamento: [
+    "arco",
+    "violão",
+    "gaita",
+    "flechas de aço",
+    "botas de couro",
+    "capa de couro",
+    "chapéu de pena"
+  ],
+  pontosDeVida: 30,
+  pontosDeMagia: 100,
+  moedas: {
+    ouro: 20,
+    prata: 43,
+    bronze: 125
+  },
+  pocoes: {
+    cura: 0,
+    magia: 5
+  },
+  tocarMusica(musica, letra) {
+    return(
+      `
+      Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+      uma música para trazer ânimo a seus corpos e esperança para seus corações.
+      Apresento-lhes a música ${musica}.
+      Em 1, 2, 3
+      ...
+      ${letra}
+      `
+    );
+  },
+  mauricio() {
+    if (this.pocoes.cura > 0) {
+      this.pontosDeVida = 100;
+      this.pocoes.cura -= 1;
+    }
+  },
+  juvenal(quantidade) {
+    const CUSTO_POCAO = 15;
+    const PRECO = quantidade * CUSTO_POCAO;
+    const PRATA_TOTAL = this.moedas.prata + this.moedas.ouro * 10 + this.moedas.bronze / 10;
+
+    if (PRATA_TOTAL < PRECO) {
+      return "Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?";
+    }
+
+    let resto = PRECO;
+    const usarPrata = Math.min(this.moedas.prata, resto);
+    this.moedas.prata -= usarPrata;
+    resto -= usarPrata;
+
+    if (resto > 0) {
+      const ouroParaPrata = Math.min(this.moedas.ouro, resto / 10);
+      this.moedas.ouro -= ouroParaPrata;
+      this.moedas.prata += ouroParaPrata * 10;
+
+      const prataDepoisOuro = Math.min(this.moedas.prata, resto);
+      this.moedas.prata -= prataDepoisOuro;
+      resto -= prataDepoisOuro;
+    }
+
+    if (resto > 0) {
+      const bronzeParaPrata = Math.min(this.moedas.bronze / 10, resto);
+      this.moedas.bronze -= bronzeParaPrata * 10;
+      this.moedas.prata += bronzeParaPrata * 10;
+
+      const prataDepoisBronze = Math.min(this.moedas.prata, resto);
+      this.moedas.prata -= prataDepoisBronze;
+      resto -= prataDepoisBronze;
+    }
+
+    if (resto === 0) {
+      this.pocoes.cura += quantidade;
+    }
+  }
+};
+
+export default personagem;
+
