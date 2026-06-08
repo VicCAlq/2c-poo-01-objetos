@@ -59,7 +59,7 @@ const personagem = {
   },
 
   tocarMusica: function(musica, letra) {
-    return `Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso uma música para trazer ânimo a seus corpos e esperança para seus corações. Apresento-lhes a música ${musica}.\n\nEm 1, 2, 3\n...\n${letra}`;
+    console.log(`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso uma música para trazer ânimo a seus corpos e esperança para seus corações. Apresento-lhes a música ${musica}.\n\nEm 1, 2, 3\n...\n${letra}`);
   },
 
   curar: function() {
@@ -89,7 +89,7 @@ const personagem = {
       this.moedas.prata -= custoT;
       this.pocoes.cura += qtd;
     } else {
-      return "Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?";
+      console.log("Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?");
     }
   }
 }
