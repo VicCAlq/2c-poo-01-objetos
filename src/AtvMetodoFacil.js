@@ -35,13 +35,13 @@ const personagem = {
     cura: 7, magia: 5 
   }, 
   tocarMusica: function (musica, letra) {
-    console.log Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
-uma música para trazer ânimo a seus corpos e esperança para seus corações.
-Apresento-lhes a música [musica].
-  
-'Em 1, 2, 3'
-   '...'
-[letra]
+  console.log(`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+  uma música para trazer ânimo a seus corpos e esperança para seus corações.
+  Apresento-lhes a música [${musica}].
+    
+  'Em 1, 2, 3'
+     '...'
+  [${letra}]`) 
   }
 
 }
