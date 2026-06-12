@@ -22,10 +22,9 @@
   */
 const personagem = {
 
-  nome: "juca",
+  nome: "Romeu Rômulo",
+  classe: "bardo",
   nivel: 12,
-  pontosDeMagia: 100,
-  pontosDeVida: 100,
 
   equipamentos: [
   "arco",
@@ -37,6 +36,10 @@ const personagem = {
   "chapéu de pena",
 ],
 
+pontosDeMagia: 100,
+
+pontosDeVida: 100,
+
   moedas:{
   Ouro: 20,
   Prata: 43,
@@ -45,8 +48,8 @@ const personagem = {
  
 
   pocoes: {
-  pocoesDeCura: 7,
-  pocoesDeMagia: 5,
+  cura: 7,
+  magia: 5,
  },
 
 
