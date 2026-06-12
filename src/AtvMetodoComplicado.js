@@ -84,8 +84,20 @@ const personagem = {
 			this.moedas.bronze -= custoTotal * 10
 			conseguiu = true
 		} else if (parseInt(custoTotal / 10) <= this.moedas.ouro) {
-			this.moedas.ouro -= parseInt(parseInt(custoTotal / 10))
-			conseguiu = true
+			const decremento = parseInt(custoTotal / 10)
+			const resto = custoTotal - decremento * 10
+			this.moedas.ouro -= decremento
+
+			if (resto == 0)
+				conseguiu = true
+			else if (resto <= this.moedas.prata) {
+				this.moedas.prata -= resto
+				conseguiu = true
+			} else if (resto <= this.moedas.bronze)
+			{
+				this.moedas.bronze -= resto * 10
+				conseguiu = true
+			}
 		}
 
 		if (!conseguiu) {
