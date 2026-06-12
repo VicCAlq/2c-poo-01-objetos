@@ -4,7 +4,7 @@
   * Crie um objeto com o nome de variável "personagem" que contenha 
   * as características abaixo marcadas entre áspas:
   *
-  * O "nome" do personagem é "Romeu Rômulo", e possui a classe "bardo".
+  * O "nome" do personagem é "Romeu Rômulo", e possui a classe" "bardo".
   * Atualmente o "nivel" dele é de "12", e ele possui como "equipamento"
   * a lista de itens "arco", "violão", "gaita", "flechas de aço", "botas de couro",
   * "capa de couro", "chapéu de pena".
@@ -20,3 +20,20 @@
   * as palavras "export default" seguido do nome do objeto, 
   * como "export default personagem"
   */
+const personagem = {
+  nome: "Romeu Rômulo",
+  classe: "bardo",
+  nivel: 12,
+  equipamento: ["arco", "violão", "gaita", "flechas de aço", "botas de couro",
+  "capa de couro", "chapéu de pena"],
+  vida: 100,
+  magia: 100,
+  moeda: {
+    ouro: 20, prata: 43, bronze: 125
+  },
+  pocoes: {
+    cura: 7, magia: 5 
+  },
+
+}
+export default personagem
