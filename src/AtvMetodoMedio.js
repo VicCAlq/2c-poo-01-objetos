@@ -28,7 +28,7 @@ const personagem = {
     "capa de couro",
     "chapéu de pena",
   ],
-  pontosDeVida: 100,
+  pontosDeVida: 30,
   pontosDeMagia: 100,
   moedas: {
     ouro: 20,
