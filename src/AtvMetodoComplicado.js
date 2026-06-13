@@ -64,10 +64,17 @@ const personagem = {
     },
 
   comprarpocao: function(quantidadeDePocoesAdquiridas){
-    custoPorPocao = 15 
+    custoPorPocao = 15
     custoTotal = custoPorPocao * quantidadeDePocoesAdquiridas
+    pocoesCompradas = 6
+    if (quantidadeDePocoesAdquiridas = 1 || 2) {
+      this.moedas.prata -= 30
+      this.pocoes.cura += 2
+    } else {
+      
+    }
 
-    const 
+    
   },
 
   tocarMusica: function(nome,letra){
