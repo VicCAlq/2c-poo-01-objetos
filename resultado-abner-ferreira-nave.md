@@ -1,6 +1,13 @@
-Data de atualização: Dia 15/06/2026 às 16:42:41
+Data de atualização: Dia 15/06/2026 às 16:43:44
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum exercício está com um erro que impossibilitou a execução dos testes. Procure por loops infinitos e outros erros similares que possam ter sido cometidos. |
+| a: | Ex pe | ✅ | ❌ | Error: Número de poções de cura não corresponde ao esperado após compra. |
+| te | Ex �t | ✅ | ✅ | Nenhum erro |
+| u: | Ex st | ✅ | ✅ | Nenhum erro |
+| m: | Ex st | ✅ | ✅ | Nenhum erro |
+| :  | Ex mp | ✅ | ✅ | Nenhum erro |
+| :  | Ex mp | ✅ | ✅ | Nenhum erro |
+| :  | Ex mp | ✅ | ✅ | Nenhum erro |
+| :  | Ex mp | ✅ | ✅ | Nenhum erro |
