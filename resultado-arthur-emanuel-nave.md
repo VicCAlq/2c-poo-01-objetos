@@ -1,6 +1,13 @@
-Data de atualização: Dia 15/06/2026 às 16:36:50
+Data de atualização: Dia 16/06/2026 às 16:25:44
  
 
-| Questão | Exercício | Entregue | Correto | Mensagem de Erro |
-|---------|-----------|----------|---------|------------------|
-| ❌❌❌ | Ex ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum exercício está com um erro que impossibilitou a execução dos testes. Procure por loops infinitos e outros erros similares que possam ter sido cometidos. |
+| Questão | Teste | Entregue | Correto | Mensagem de Erro |
+|---------|-------|----------|---------|------------------|
+
+| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | personagem is not a function |
+
+| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | personagem is not a function |
+
+| ❌❌❌ | Ex 3 | ❌❌❌ | ❌❌❌ | personagem is not a function |
+
+| ❌❌❌ | Ex 4 | ❌❌❌ | ❌❌❌ | personagemm is not defined |
