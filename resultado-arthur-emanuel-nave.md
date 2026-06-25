@@ -1,13 +1,4 @@
-Data de atualização: Dia 16/06/2026 às 16:34:59
- 
+Data de atualização: Dia 25/6/2026 às 14:32 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-
-| ❌❌❌ | Ex 1 | ❌❌❌ | ❌❌❌ | personagem is not a function |
-
-| ❌❌❌ | Ex 2 | ❌❌❌ | ❌❌❌ | personagem is not a function |
-
-| ❌❌❌ | Ex 3 | ❌❌❌ | ❌❌❌ | personagem is not a function |
-
-| ❌❌❌ | Ex 4 | ❌❌❌ | ❌❌❌ | personagemm is not defined |
