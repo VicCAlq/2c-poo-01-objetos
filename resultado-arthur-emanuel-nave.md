@@ -1,8 +1,8 @@
-Data de atualização: Dia 25/6/2026 às 14:41 
+Data de atualização: Dia 25/6/2026 às 15:1 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | personagem is not a function |
-| /AtvMetodoFacil.test.js | ❌ | ❌ | ❌ | personagem is not a function |
-| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | personagem is not a function |
-| /AtvObjeto.test.js | ❌ | ❌ | ❌ | personagemm is not defined |
+| /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvMetodoFacil.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvObjeto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
