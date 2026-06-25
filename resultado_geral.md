@@ -1,4 +1,4 @@
-Data de atualização: Dia 25/6/2026 às 14:46 
+Data de atualização: Dia 25/6/2026 às 15:6 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
@@ -12,29 +12,29 @@ Data de atualização: Dia 25/6/2026 às 14:46
 | Bernardo Pedro (Bernardo-Pedro-Nave) | 0 | 0.00 |
 | Brenda Vilaça (brenda-vilaca-nave) | 0 | 0.00 |
 | Brennda Rykelly (brennda-rykelly-nave) | 0 | 0.00 |
-| Bruno Gustavo (buenots) | 3 | 100.00 |
-| Caique Albuquerque (caique-albuquerque-nave) | 1 | 40.00 |
-| Cauê Ferreira (caue-ferreira-nave) | 2 | 97.04 |
-| Davi Barboza (DaviBarboza98) | 2 | 97.04 |
-| Davi Neres (davi-neres-nave) | 3 | 100.00 |
-| Debora Vitória (debora-vitoria-nave) | 3 | 100.00 |
-| Eduardo Oliveira (dudu-015) | 2 | 84.44 |
-| Fernandes Gabriel (fernandes-gabriel-nave) | 3 | 100.00 |
-| Gabriel Fernando (gabriel-fernando-nave) | 3 | 100.00 |
+| Bruno Gustavo (buenots) | 0 | 0.00 |
+| Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
+| Cauê Ferreira (caue-ferreira-nave) | 0 | 0.00 |
+| Davi Barboza (DaviBarboza98) | 0 | 0.00 |
+| Davi Neres (davi-neres-nave) | 0 | 0.00 |
+| Debora Vitória (debora-vitoria-nave) | 0 | 0.00 |
+| Eduardo Oliveira (dudu-015) | 0 | 0.00 |
+| Fernandes Gabriel (fernandes-gabriel-nave) | 0 | 0.00 |
+| Gabriel Fernando (gabriel-fernando-nave) | 0 | 0.00 |
 | Gabriel Primo (priimooo1) | 2 | 94.07 |
 | Gabriel Vitor (gabriel-vitor-nave) | 0 | 0.00 |
-| Gustavo Alberto (gustavoalberto-create) | 2 | 88.89 |
-| Henrique Samuel (henriquerocha-ops) | 1 | 63.70 |
-| Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 3 | 100.00 |
-| Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 20.00 |
-| João Barros (Joao-Barros-NAVE) | 3 | 100.00 |
+| Gustavo Alberto (gustavoalberto-create) | 0 | 0.00 |
+| Henrique Samuel (henriquerocha-ops) | 0 | 0.00 |
+| Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 0 | 0.00 |
+| Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 0.00 |
+| João Barros (Joao-Barros-NAVE) | 0 | 0.00 |
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 2 | 97.04 |
 | Letícia Domingos (letletdaluz) | 3 | 100.00 |
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
-| Marcus Vinícios (marcus-vinicios-nave) | 3 | 100.00 |
-| Mateus Antônio (mateusnave) | 3 | 100.00 |
-| Matheus Thiago (teteuzo) | 3 | 100.00 |
+| Marcus Vinícios (marcus-vinicios-nave) | 0 | 0.00 |
+| Mateus Antônio (mateusnave) | 0 | 0.00 |
+| Matheus Thiago (teteuzo) | 0 | 0.00 |
 | Miguel Albuquerque (miguelalbuquerque492) | 0 | 0.00 |
 | Pedro Arthur (pedro-arthur-nave) | 0 | 20.00 |
 | Pedro Victor (pedro-victor-nave) | 2 | 97.04 |
