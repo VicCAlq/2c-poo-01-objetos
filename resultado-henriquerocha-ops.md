@@ -1,5 +1,18 @@
-Data de atualização: Dia 26/6/2026 às 11:56 
+Data de atualização: Dia 26/6/2026 às 12:5 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| ❌❌❌ | ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum exercício está com um erro que impossibilitou a execução dos testes. Procure por loops infinitos e outros erros similares que possam ter sido cometidos. |
+| /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| Testes para AtvObjeto | Método "tocarMusica" foi criado corretamente | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Testando "tocarMusica" com a música 01 - Exemplo: | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Testando "tocarMusica" com a música 02 - Deja Vu: | ✅ | ✅ | Sem erros |
+| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| Testes para AtvObjeto | Objeto "personagem" foi exportado corretamente:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade nome:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade classe:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade nivel:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade equipamento:  | ✅ | ❌ | Error: Propriedade equipamento não existe ou não possui o tipo correto |
+| Testes para AtvObjeto | Componente possui a propriedade pontosDeVida:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade pontosDeMagia:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade moedas:  | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Componente possui a propriedade pocoes:  | ✅ | ✅ | Sem erros |
