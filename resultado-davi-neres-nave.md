@@ -1,21 +1,5 @@
-Data de atualização: Dia 25/6/2026 às 15:17 
+Data de atualização: Dia 26/6/2026 às 10:47 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| AtvMetodoComplicado | O personagem possui o método comprar poções de cura: | ✅ | ✅ | Sem erros |
-| AtvMetodoComplicado | Testando o método curar do personagem com 3 itens comprados: | ✅ | ❌ | Error: Número de poções de cura não corresponde ao esperado após compra. |
-| AtvMetodoComplicado | Testando o método seuTorresmo do personagem com 3 itens comprados: | ✅ | ✅ | Sem erros |
-| AtvMetodoFacil | Método "tocarMusica" foi criado corretamente | ✅ | ✅ | Sem erros |
-| AtvMetodoFacil | Testando "tocarMusica" com a música 01 - Exemplo: | ✅ | ✅ | Sem erros |
-| AtvMetodoFacil | Testando "tocarMusica" com a música 02 - Deja Vu: | ✅ | ✅ | Sem erros |
-| AtvMetodoMedio | O personagem possui o método de usar poção: | ✅ | ✅ | Sem erros |
-| AtvMetodoMedio | Testando o método chamaODoc do personagem: | ✅ | ✅ | Sem erros |
-| AtvObjeto | Objeto "personagem" foi exportado corretamente:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade nome:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade classe:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade nivel:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade equipamento:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade pontosDeVida:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade pontosDeMagia:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade moedas:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade pocoes:  | ✅ | ✅ | Sem erros |
+| ❌❌❌ | ❌❌❌ | ❌❌❌ | ❌❌❌ | Autor do commit (envio) não corresponde ao dono da Branch |
