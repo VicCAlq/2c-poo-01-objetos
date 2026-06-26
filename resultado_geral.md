@@ -1,4 +1,4 @@
-Data de atualização: Dia 25/6/2026 às 15:20 
+Data de atualização: Dia 26/6/2026 às 10:50 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
@@ -13,12 +13,12 @@ Data de atualização: Dia 25/6/2026 às 15:20
 | Brenda Vilaça (brenda-vilaca-nave) | 0 | 0.00 |
 | Brennda Rykelly (brennda-rykelly-nave) | 0 | 0.00 |
 | Bruno Gustavo (buenots) | 3 | 100.00 |
-| Caique Albuquerque (caique-albuquerque-nave) | 1 | 40.00 |
+| Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
 | Cauê Ferreira (caue-ferreira-nave) | 2 | 97.04 |
 | Davi Barboza (DaviBarboza98) | 0 | 0.00 |
-| Davi Neres (davi-neres-nave) | 3 | 100.00 |
-| Debora Vitória (debora-vitoria-nave) | 0 | 0.00 |
-| Eduardo Oliveira (dudu-015) | 0 | 0.00 |
+| Davi Neres (davi-neres-nave) | 0 | 0.00 |
+| Debora Vitória (debora-vitoria-nave) | 3 | 100.00 |
+| Eduardo Oliveira (dudu-015) | 2 | 84.44 |
 | Fernandes Gabriel (fernandes-gabriel-nave) | 3 | 100.00 |
 | Gabriel Fernando (gabriel-fernando-nave) | 3 | 100.00 |
 | Gabriel Primo (priimooo1) | 2 | 94.07 |
@@ -29,8 +29,8 @@ Data de atualização: Dia 25/6/2026 às 15:20
 | Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 20.00 |
 | João Barros (Joao-Barros-NAVE) | 3 | 100.00 |
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
-| Kamylle Vitória (Kamylle-Vitoria-Nave) | 0 | 0.00 |
-| Letícia Domingos (letletdaluz) | 0 | 0.00 |
+| Kamylle Vitória (Kamylle-Vitoria-Nave) | 2 | 97.04 |
+| Letícia Domingos (letletdaluz) | 3 | 100.00 |
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 3 | 100.00 |
 | Mateus Antônio (mateusnave) | 3 | 100.00 |
@@ -45,5 +45,5 @@ Data de atualização: Dia 25/6/2026 às 15:20
 | Thales Henry (thaleshenry-nave) | 3 | 100.00 |
 | Thulio Barbosa (thuliobarbosa-creator) | 2 | 97.04 |
 | Vitor Calixto (Vitor-Calixto-Paixao) | 3 | 100.00 |
-| Walleysson Ferreira (wally1542) | 3 | 100.00 |
+| Walleysson Ferreira (wally1542) | 0 | 0.00 |
 | Yan Arthur (yan-arthur-nave) | 3 | 100.00 |
