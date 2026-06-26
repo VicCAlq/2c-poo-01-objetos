@@ -1,9 +1,9 @@
-Data de atualização: Dia 26/6/2026 às 12:32 
+Data de atualização: Dia 26/6/2026 às 12:41 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
 | Abner Ferreira (abner-ferreira-nave) | 3 | 100.00 |
-| Amanda Vitória (amanda-vitoria-nave) | 0 | 0.00 |
+| Amanda Vitória (amanda-vitoria-nave) | 2 | 84.44 |
 | Andrey Antonio (itzisnotavaliable) | 0 | 0.00 |
 | Arthur Emanuel (arthur-emanuel-nave) | 0 | 0.00 |
 | Arthur Lucio (arthur-lucio-nave) | 0 | 0.00 |
@@ -12,18 +12,18 @@ Data de atualização: Dia 26/6/2026 às 12:32
 | Bernardo Pedro (Bernardo-Pedro-Nave) | 2 | 97.04 |
 | Brenda Vilaça (brenda-vilaca-nave) | 0 | 0.00 |
 | Brennda Rykelly (brennda-rykelly-nave) | 0 | 0.00 |
-| Bruno Gustavo (buenots) | 0 | 0.00 |
+| Bruno Gustavo (buenots) | 3 | 100.00 |
 | Caique Albuquerque (caique-albuquerque-nave) | 0 | 0.00 |
 | Cauê Ferreira (caue-ferreira-nave) | 2 | 97.04 |
 | Davi Barboza (DaviBarboza98) | 0 | 0.00 |
 | Davi Neres (davi-neres-nave) | 0 | 0.00 |
 | Debora Vitória (debora-vitoria-nave) | 3 | 100.00 |
 | Eduardo Oliveira (dudu-015) | 2 | 84.44 |
-| Fernandes Gabriel (fernandes-gabriel-nave) | 0 | 0.00 |
-| Gabriel Fernando (gabriel-fernando-nave) | 3 | 100.00 |
+| Fernandes Gabriel (fernandes-gabriel-nave) | 3 | 100.00 |
+| Gabriel Fernando (gabriel-fernando-nave) | 0 | 0.00 |
 | Gabriel Primo (priimooo1) | 0 | 0.00 |
 | Gabriel Vitor (gabriel-vitor-nave) | 0 | 0.00 |
-| Gustavo Alberto (gustavoalberto-create) | 0 | 0.00 |
+| Gustavo Alberto (gustavoalberto-create) | 2 | 88.89 |
 | Henrique Samuel (henriquerocha-ops) | 1 | 63.70 |
 | Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 3 | 100.00 |
 | Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 20.00 |
