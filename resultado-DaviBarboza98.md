@@ -1,5 +1,5 @@
-Data de atualização: Dia 25/6/2026 às 15:17 
+Data de atualização: Dia 26/6/2026 às 10:47 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| ❌❌❌ | ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum exercício está com um erro que impossibilitou a execução dos testes. Procure por loops infinitos e outros erros similares que possam ter sido cometidos. |
+| ❌❌❌ | ❌❌❌ | ❌❌❌ | ❌❌❌ | Autor do commit (envio) não corresponde ao dono da Branch |
