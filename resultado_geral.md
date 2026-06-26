@@ -1,4 +1,4 @@
-Data de atualização: Dia 26/6/2026 às 10:50 
+Data de atualização: Dia 26/6/2026 às 11:53 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
@@ -21,7 +21,7 @@ Data de atualização: Dia 26/6/2026 às 10:50
 | Eduardo Oliveira (dudu-015) | 2 | 84.44 |
 | Fernandes Gabriel (fernandes-gabriel-nave) | 3 | 100.00 |
 | Gabriel Fernando (gabriel-fernando-nave) | 3 | 100.00 |
-| Gabriel Primo (priimooo1) | 2 | 94.07 |
+| Gabriel Primo (priimooo1) | 2 | 91.22 |
 | Gabriel Vitor (gabriel-vitor-nave) | 0 | 0.00 |
 | Gustavo Alberto (gustavoalberto-create) | 2 | 88.89 |
 | Henrique Samuel (henriquerocha-ops) | 1 | 63.70 |
@@ -30,10 +30,10 @@ Data de atualização: Dia 26/6/2026 às 10:50
 | João Barros (Joao-Barros-NAVE) | 3 | 100.00 |
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 2 | 97.04 |
-| Letícia Domingos (letletdaluz) | 3 | 100.00 |
+| Letícia Domingos (letletdaluz) | 4 | 100.00 |
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 3 | 100.00 |
-| Mateus Antônio (mateusnave) | 3 | 100.00 |
+| Mateus Antônio (mateusnave) | 4 | 100.00 |
 | Matheus Thiago (teteuzo) | 3 | 100.00 |
 | Miguel Albuquerque (miguelalbuquerque492) | 0 | 0.00 |
 | Pedro Arthur (pedro-arthur-nave) | 0 | 20.00 |
@@ -45,5 +45,5 @@ Data de atualização: Dia 26/6/2026 às 10:50
 | Thales Henry (thaleshenry-nave) | 3 | 100.00 |
 | Thulio Barbosa (thuliobarbosa-creator) | 2 | 97.04 |
 | Vitor Calixto (Vitor-Calixto-Paixao) | 3 | 100.00 |
-| Walleysson Ferreira (wally1542) | 0 | 0.00 |
+| Walleysson Ferreira (wally1542) | 3 | 100.00 |
 | Yan Arthur (yan-arthur-nave) | 3 | 100.00 |
