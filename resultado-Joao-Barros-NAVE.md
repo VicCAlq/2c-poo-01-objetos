@@ -1,9 +1,12 @@
-Data de atualização: Dia 26/6/2026 às 10:48 
+Data de atualização: Dia 26/6/2026 às 11:51 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
 | Testes para AtvObjeto | O personagem possui o método comprar poções de cura: | ✅ | ✅ | Sem erros |
-| Testes para AtvObjeto | Testando o método comprarPocoes do personagem com 3 itens comprados: | ✅ | ❌ | Error: Número de poções de cura não corresponde ao esperado após compra. |
+| Testes para AtvObjeto | Testando a quantidade de poções compradas pelo método comprarPocoes 
+      do personagem com 3 itens comprados: | ✅ | ✅ | Sem erros |
+| Testes para AtvObjeto | Testando a quantidade de troco restante após uso do método comprarPocoes 
+      do personagem com 3 itens comprados: | ✅ | ❌ | Error: Número de moedas restantes não corresponde ao esperado após compra. |
 | Testes para AtvObjeto | Método "tocarMusica" foi criado corretamente | ✅ | ✅ | Sem erros |
 | Testes para AtvObjeto | Testando "tocarMusica" com a música 01 - Exemplo: | ✅ | ❌ | Error: A música não foi corretamente impressa no terminal |
 | Testes para AtvObjeto | Testando "tocarMusica" com a música 02 - Deja Vu: | ✅ | ❌ | Error: A música não foi corretamente impressa no terminal |
