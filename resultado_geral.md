@@ -1,4 +1,4 @@
-Data de atualização: Dia 26/6/2026 às 11:59 
+Data de atualização: Dia 26/6/2026 às 12:7 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
@@ -24,21 +24,21 @@ Data de atualização: Dia 26/6/2026 às 11:59
 | Gabriel Primo (priimooo1) | 2 | 91.22 |
 | Gabriel Vitor (gabriel-vitor-nave) | 0 | 0.00 |
 | Gustavo Alberto (gustavoalberto-create) | 2 | 88.89 |
-| Henrique Samuel (henriquerocha-ops) | 0 | 0.00 |
+| Henrique Samuel (henriquerocha-ops) | 1 | 63.70 |
 | Isaac Andrade (Isaac-Andrade-Santos-NAVE) | 3 | 100.00 |
 | Jeniffer Dantas (jeniffer-dantas-nave) | 0 | 20.00 |
 | João Barros (Joao-Barros-NAVE) | 3 | 100.00 |
 | Jonatas Vinícius (jonatasvinicius67) | 0 | 0.00 |
 | Kamylle Vitória (Kamylle-Vitoria-Nave) | 2 | 97.04 |
-| Letícia Domingos (letletdaluz) | 0 | 0.00 |
+| Letícia Domingos (letletdaluz) | 4 | 100.00 |
 | Luan Murilo (luan-murilo-nave) | 0 | 0.00 |
 | Marcus Vinícios (marcus-vinicios-nave) | 3 | 100.00 |
-| Mateus Antônio (mateusnave) | 0 | 0.00 |
+| Mateus Antônio (mateusnave) | 4 | 100.00 |
 | Matheus Thiago (teteuzo) | 3 | 100.00 |
 | Miguel Albuquerque (miguelalbuquerque492) | 0 | 0.00 |
 | Pedro Arthur (pedro-arthur-nave) | 0 | 20.00 |
 | Pedro Victor (pedro-victor-nave) | 2 | 97.04 |
-| Renato Marques (Renato-Marques-Nave) | 0 | 0.00 |
+| Renato Marques (Renato-Marques-Nave) | 3 | 100.00 |
 | Ryan Gabriel (Ryan-Nave2026) | 0 | 0.00 |
 | Samuel Erivaldo (samuelerivaldo-png) | 3 | 100.00 |
 | Saulo Bizerril (saulobizerril-nave) | 0 | 0.00 |
