@@ -1,19 +1,8 @@
-Data de atualização: Dia 26/6/2026 às 12:38 
+Data de atualização: Dia 24/8/2026 às 13:26 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
 | /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
-| AtvMetodoFacil | Método "tocarMusica" foi criado corretamente | ✅ | ✅ | Sem erros |
-| AtvMetodoFacil | Testando "tocarMusica" com a música 01 - Exemplo: | ✅ | ✅ | Sem erros |
-| AtvMetodoFacil | Testando "tocarMusica" com a música 02 - Deja Vu: | ✅ | ✅ | Sem erros |
-| AtvMetodoMedio | O personagem possui o método de usar poção: | ✅ | ✅ | Sem erros |
-| AtvMetodoMedio | Testando o método curar do personagem: | ✅ | ✅ | Sem erros |
-| AtvObjeto | Objeto "personagem" foi exportado corretamente:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade nome:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade classe:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade nivel:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade equipamento:  | ✅ | ❌ | Error: Propriedade equipamento não existe ou não possui o tipo correto |
-| AtvObjeto | Componente possui a propriedade pontosDeVida:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade pontosDeMagia:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade moedas:  | ✅ | ✅ | Sem erros |
-| AtvObjeto | Componente possui a propriedade pocoes:  | ✅ | ✅ | Sem erros |
+| /AtvMetodoFacil.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvObjeto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
