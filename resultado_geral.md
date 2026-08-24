@@ -1,9 +1,9 @@
-Data de atualização: Dia 24/8/2026 às 13:43 
+Data de atualização: Dia 24/8/2026 às 13:44 
 
 | Aluno | Qtd. questões acertadas (de 3) | Nota total |
 |-------|---------------------------------|------------|
 | Abner Ferreira (abner-ferreira-nave) | 0 | 0.00 |
-| Amanda Vitória (amanda-vitoria-nave) | 0 | 0.00 |
+| Amanda Vitória (amanda-vitoria-nave) | 2 | 84.44 |
 | Andrey Antonio (itzisnotavaliable) | 0 | 0.00 |
 | Arthur Emanuel (arthur-emanuel-nave) | 0 | 0.00 |
 | Arthur Lucio (arthur-lucio-nave) | 0 | 0.00 |
