@@ -1,5 +1,8 @@
-Data de atualização: Dia 26/6/2026 às 12:38 
+Data de atualização: Dia 24/8/2026 às 13:27 
 
 | Questão | Teste | Entregue | Correto | Mensagem de Erro |
 |---------|-------|----------|---------|------------------|
-| ❌❌❌ | ❌❌❌ | ❌❌❌ | ❌❌❌ | Algum exercício está com um erro que impossibilitou a execução dos testes. Procure por loops infinitos e outros erros similares que possam ter sido cometidos. |
+| /AtvMetodoComplicado.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvMetodoFacil.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvMetodoMedio.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
+| /AtvObjeto.test.js | ❌ | ❌ | ❌ | Atividade não feita ou não exportada corretamente |
