@@ -39,3 +39,75 @@
   * Lembre-se de exportar o objeto do personagem no final do código.
   */
 
+const personagem = {
+  nome: "Romeu Rômulo",
+  classe: "bardo",
+  nivel: 12,
+  equipamento: [
+    "arco",
+    "violão",
+    "gaita",
+    "flechas de aço",
+    "botas de couro",
+    "capa de couro",
+    "chapéu de pena"
+  ],
+  pontosDeVida: 30,
+  pontosDeMagia: 100,
+  moedas: {
+    ouro: 20,
+    prata: 43,
+    bronze: 125
+  },
+  pocoes: {
+    cura: 0,
+    magia: 5
+  },
+
+  tocarMusica(musica, letra) {
+    console.log(`
+Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+uma música para trazer ânimo a seus corpos e esperança para seus corações.
+Apresento-lhes a música ${musica}.
+
+Em 1, 2, 3
+...
+${letra}
+    `);
+  },
+
+  consumirPocaoDeCura() {
+    if (this.pocoes.cura > 0) {
+      this.pontosDeVida = 100;
+      this.pocoes.cura--;
+    }
+  },
+
+  comprarPocoes(quantidade) {
+    const valor = quantidade * 15;
+
+    let prata = this.moedas.prata;
+    let bronze = this.moedas.bronze;
+
+    prata += this.moedas.ouro * 10;
+    this.moedas.ouro = 0;
+
+    prata += Math.floor(bronze / 10);
+    this.moedas.bronze = bronze % 10;
+
+    if (prata < valor) {
+      console.log("Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?");
+      return;
+    }
+
+    prata -= valor;
+
+    this.moedas.prata = prata;
+    this.pocoes.cura += quantidade;
+  }
+};
+
+export default personagem;
+
+
+::
