@@ -82,42 +82,20 @@ const personagem = {
     }
   },
   juvenal(quantidade) {
-    const CUSTO_POCAO = 15;
-    const PRECO = quantidade * CUSTO_POCAO;
-    const PRATA_TOTAL = this.moedas.prata + this.moedas.ouro * 10 + this.moedas.bronze / 10;
+    const custo = quantidade * 15 * 10;
+    const total = this.moedas.ouro * 100 + this.moedas.prata * 10 + this.moedas.bronze;
 
-    if (PRATA_TOTAL < PRECO) {
-      return "Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?";
+    if (total < custo) {
+      console.log('Você não tem dinheiro o suficiente, meu caro. Quer fazer um empréstimo?');
+      return;
     }
 
-    let resto = PRECO;
-    const usarPrata = Math.min(this.moedas.prata, resto);
-    this.moedas.prata -= usarPrata;
-    resto -= usarPrata;
-
-    if (resto > 0) {
-      const ouroParaPrata = Math.min(this.moedas.ouro, resto / 10);
-      this.moedas.ouro -= ouroParaPrata;
-      this.moedas.prata += ouroParaPrata * 10;
-
-      const prataDepoisOuro = Math.min(this.moedas.prata, resto);
-      this.moedas.prata -= prataDepoisOuro;
-      resto -= prataDepoisOuro;
-    }
-
-    if (resto > 0) {
-      const bronzeParaPrata = Math.min(this.moedas.bronze / 10, resto);
-      this.moedas.bronze -= bronzeParaPrata * 10;
-      this.moedas.prata += bronzeParaPrata * 10;
-
-      const prataDepoisBronze = Math.min(this.moedas.prata, resto);
-      this.moedas.prata -= prataDepoisBronze;
-      resto -= prataDepoisBronze;
-    }
-
-    if (resto === 0) {
-      this.pocoes.cura += quantidade;
-    }
+    let restante = total - custo;
+    this.moedas.ouro = Math.floor(restante / 100);
+    restante %= 100;
+    this.moedas.prata = Math.floor(restante / 10);
+    this.moedas.bronze = restante % 10;
+    this.pocoes.cura += quantidade;
   }
 };
 

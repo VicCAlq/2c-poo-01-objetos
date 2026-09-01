@@ -45,16 +45,13 @@ const personagem = {
     magia: 5
   },
   tocarMusica(musica, letra) {
-    return(
-      `
-      Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
-      uma música para trazer ânimo a seus corpos e esperança para seus corações.
-      Apresento-lhes a música ${musica}.
-      Em 1, 2, 3
-      ...
-      ${letra}
-      `
-    );
+    console.log(`Senhoras e senhores, gostaria de oferecer a vocês neste dia tempestuoso
+uma música para trazer ânimo a seus corpos e esperança para seus corações.
+Apresento-lhes a música ${musica}.
+
+Em 1, 2, 3
+...
+${letra}`);
   }
 };
 export default personagem;
